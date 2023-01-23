@@ -1,0 +1,124 @@
+.footer {
+    padding: 10rem 5rem 2rem 5rem;
+}
+.footer-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--dark-blue);
+    padding: 5rem 20rem;
+    border-radius: 2rem;
+    gap: 2rem;
+}
+.footer-email h1 {
+    font-size: 50px;
+    color: white;
+}
+.footer-email-button {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.footer-email-button input {
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+.footer-email-button button {
+    padding: 0 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--green);
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer-main {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.footer-main-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-main-logo h1 {
+    color: var(--dark-blue);
+    font-size: 40px;
+}
+.footer-main-logo p {
+    color: var(--gray);
+    font-size: 16px;
+}
+.footer-main-landings,
+.footer-main-company,
+.footer-main-resources {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer-main-landings h1,
+.footer-main-company h1,
+.footer-main-resources h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.footer-main a {
+    text-decoration: none;
+    color: var(--gray);
+}
+.footer-main a:hover {
+    text-decoration: underline;
+    color: var(--dark-blue);
+}
+.footer-main span {
+    background-color: var(--green);
+    color: var(--dark-blue);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 1rem;
+}
+@media screen and (max-width: 1024px) {
+    .footer-email {
+        padding: 5rem 5rem;
+    }
+    .footer-main {
+        gap: 4rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer-email-button button {
+        padding: 1rem 4rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .footer {
+        padding: 10rem 1rem 2rem 1rem;
+    }
+    .footer-email {
+        padding: 1rem;
+    }
+    .footer-email-button {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-email-button input {
+        width: 100%;
+    }
+    .footer-email-button button {
+        padding: 1rem 4rem;
+    }
+    .footer-main {
+        gap: 1rem;
+    }
+}

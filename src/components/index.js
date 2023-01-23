@@ -1,0 +1,5 @@
+export { default as Home } from '../components/home/Home'
+export { default as Navbar } from '../components/navbar/Navbar'
+export { default as Product } from '../components/product/Product'
+export { default as Services } from '../components/services/Services'
+export { default as About } from '../components/about/About'

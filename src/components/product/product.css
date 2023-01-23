@@ -1,0 +1,352 @@
+.product-about {
+    display: flex;
+    align-items: center;
+    padding: 10rem 5rem 5rem 5rem;
+    background-color: var(--green);
+    flex-wrap: wrap;
+}
+.about-text1 {
+    padding-right: 5rem;
+    width: 50%;
+}
+.about-text1 p {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--dark-blue);
+}
+.about-text1 h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.about-text2 {
+    font-weight: 500;
+    line-height: 2rem;
+    width: 50%;
+}
+.product-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 15rem;
+    text-align: center;
+}
+.product-numbers p {
+    font-size: 18px;
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+.product-numbers h1 {
+    font-size: 40px;
+    color: var(--dark-blue);
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.product-numbers-details {
+    display: flex;
+    gap: 10rem;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.numbers-details-col1,
+.numbers-details-col2,
+.numbers-details-col3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.numbers-details-col1 h1,
+.numbers-details-col2 h1,
+.numbers-details-col3 h1 {
+    font-size: 80px;
+}
+.product-story {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5rem 15rem;
+    background-color: var(--dark-blue);
+    gap: 2rem;
+}
+.product-story p {
+    font-size: 18px;
+    color: white;
+    line-height: 2rem;
+}
+.product-story h1 {
+    font-size: 40px;
+    color: white;
+}
+.product-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8rem 5rem;
+}
+.product-team-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 10rem;
+}
+.product-team-text p {
+    font-size: 18px;
+    color: var(--gray);
+    line-height: 2rem;
+}
+.product-team-text h1 {
+    font-size: 40px;
+    color: var(--dark-blue);
+}
+.product-team-image1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.team-image1-jihyo,
+.team-image1-momo,
+.team-image1-sana {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+}
+.team-image1-jihyo h1,
+.team-image1-momo h1,
+.team-image1-sana h1 {
+    font-size: 20px;
+    color: var(--dark-blue);
+}
+.team-image1-jihyo p,
+.team-image1-momo p,
+.team-image1-sana p {
+    font-size: 18px;
+    color: var(--gray);
+}
+.team-image1-jihyo img,
+.team-image1-sana img,
+.team-image1-momo img {
+    width: 100%;
+    border-radius: 1rem;
+}
+.product-team-image2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    padding: 0 5rem;
+}
+.team-image2-walter,
+.team-image2-jesse,
+.team-image2-jihyo,
+.team-image2-momo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    gap: 1rem;
+}
+.team-image2-momo img,
+.team-image2-jihyo img {
+    width: 50%;
+    border-radius: 1rem;
+}
+.team-image2-walter img {
+    width: 28%;
+    border-radius: 1rem;
+}
+.team-image2-jesse img {
+    width: 45%;
+    border-radius: 1rem;
+}
+.walter-text h1,
+.jesse-text h1,
+.jihyo-text h1,
+.momo-text h1 {
+    font-size: 16px;
+    color: var(--dark-blue);
+}
+.walter-text p,
+.jesse-text p,
+.jihyo-text p,
+.momo-text p {
+    font-size: 16px;
+    color: var(--gray);
+}
+.product-blog {
+    padding: 5rem 8rem;
+    background-color: var(--dark-blue);
+}
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    border-bottom: 2px solid var(--gray);
+    padding: 0 10rem 4rem 10rem;
+}
+.blog-text p {
+    font-size: 18px;
+    color: white;
+}
+.blog-text h1 {
+    font-size: 40px;
+    color: white;
+}
+.blog-details {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.blog-details h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    width: 50%;
+}
+.blog-details span {
+    color: var(--green);
+}
+.blog-details p {
+    font-size: 16px;
+    color: white;
+    width: 50%;
+    line-height: 2rem;
+}
+.blog-details-committed,
+.blog-details-responsible,
+.blog-details-progress {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .product-numbers {
+        padding: 5rem 5rem;
+    }
+    .product-numbers-details {
+        gap: 5rem;
+    }
+    .product-team-image2 {
+        gap: 1rem;
+    }
+    .team-image2-walter,
+    .team-image2-jesse,
+    .team-image2-jihyo,
+    .team-image2-momo {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .product-story {
+        padding: 5rem 5rem;
+    }
+    .product-team-text {
+        padding: 0 5rem;
+    }
+    .product-team-image1 {
+        gap: 1rem;
+    }
+    .team-image1-jihyo,
+    .team-image1-momo,
+    .team-image1-sana {
+        width: 40%;
+    }
+    .team-image2-walter,
+    .team-image2-jesse,
+    .team-image2-jihyo,
+    .team-image2-momo {
+        width: 40%;
+    }
+    .team-image2-momo img,
+    .team-image2-jihyo img {
+        width: 60%;
+        border-radius: 1rem;
+    }
+    .team-image2-walter img {
+        width: 38%;
+        border-radius: 1rem;
+    }
+    .team-image2-jesse img {
+        width: 55%;
+        border-radius: 1rem;
+    }
+    .blog-text {
+        padding: 0 0 4rem 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .product-about {
+        padding: 10rem 1rem 5rem 1rem;
+    }
+    .about-text1 {
+        padding-right: 0;
+        width: 100%;
+    }
+    .about-text2 {
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .product-numbers {
+        padding: 5rem 1rem;
+    }
+    .product-numbers-details {
+        gap: 1rem;
+    }
+    .numbers-details-col1 h1,
+    .numbers-details-col2 h1,
+    .numbers-details-col3 h1 {
+        font-size: 50px;
+    }
+    .product-story {
+        padding: 5rem 1rem;
+    }
+    .product-team {
+        padding: 5rem 1rem;
+    }
+    .product-team-text {
+        padding: 0 1rem;
+    }
+    .team-image1-jihyo,
+    .team-image1-momo,
+    .team-image1-sana {
+        width: 100%;
+    }
+    .product-team-image2 {
+        padding: 0 1rem;
+    }
+    .team-image2-walter,
+    .team-image2-jesse,
+    .team-image2-jihyo,
+    .team-image2-momo {
+        width: 100%;
+    }
+    .product-blog {
+        padding: 5rem 1rem;
+    }
+    .blog-details h1 {
+        font-size: 40px;
+        font-weight: 400;
+        color: white;
+        width: 100%;
+    }
+    .blog-details p {
+        font-size: 16px;
+        color: white;
+        width: 100%;
+        line-height: 2rem;
+    }
+}
